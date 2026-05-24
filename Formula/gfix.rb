@@ -6,22 +6,22 @@ class Gfix < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-#{version}-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-aarch64-apple-darwin.tar.gz"
       sha256 "d83eee053442555bc4fb41822cb76f4e1600ff9753cc4e11970259ab19142461"
     end
     on_intel do
-      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-#{version}-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "858ba797796066104b36ed78576b7b0af6f8ce0424be6f7ca44f72268873ec5b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-#{version}-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "b628c98c66748f9b6f950a15de8153e1fcb6ea62be42fc14d71e581d8ca0297b"
     end
     on_intel do
-      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-#{version}-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "4463b07ef12dad5e56fce6d927637f02ff538f489927032c3e93baf87a35f919"
     end
   end
