@@ -1,28 +1,28 @@
 class Gfix < Formula
   desc "Cross-agent MCP-native merge resolver for AI agent swarms"
   homepage "https://gfix.space"
-  version "0.1.0-alpha.5"
+  version "0.1.0-alpha.6"
   license :cannot_represent  # Proprietary EULA; not an OSI license
 
   on_macos do
     on_arm do
       url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "9fb2846dd4557e3294d7f908cab1fa04e1723155f880a9c37c51bf8b594f7bfb"
+      sha256 "b9370bcd2a208cafe392dac1e9ae7053355beed4d4cafc77a7eb3fa2eaf1d3bd"
     end
     on_intel do
       url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "b48ec78b1c27b3af217a084accc3d36fcb1d649f452ff3b3229ce243ca828107"
+      sha256 "948ccf5239cfd0ec607163401f0ca196bffe8bd8aba6dc70d902351950994d47"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "dc5aab0426a8fc7ce5af075317408f1f07c2759732151fde7113d4cc3daec70b"
+      sha256 "48204a8a94003c5da7f77589df972844ea0a28a67ee2ff57dc12c188244a3e49"
     end
     on_intel do
       url "https://github.com/ameyypawar/gfix/releases/download/v#{version}/gfix-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6d713ca9fcdf79c2274641ea79f24c3c2ea9195b3d6f8f68c0521ee102b30a19"
+      sha256 "46958584eaa2d24843494e7bd7196cca6653325d3b64e53b5c21e2aa652b2650"
     end
   end
 
